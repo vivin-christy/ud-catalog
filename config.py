@@ -4,8 +4,8 @@ class Auth:
     using Google
     """
     # OAuth credentials
-    CLIENT_ID = '<insert client id here>'
-    CLIENT_SECRET = '<insert client secret here>'
+    CLIENT_ID = '544406063127-k38vd06fg22m0802h9vo69i63ce0m3pf.apps.googleusercontent.com'
+    CLIENT_SECRET = '9NEB4PQ5-UTtm5yW0yOIsiiq'
     # URI that google server will redirect to
     REDIRECT_URI = 'http://localhost:5000/gCallback'
     # Endpoint to start OAuth request from
