@@ -10,7 +10,7 @@
 <header>
 	<div id="heading">
 		<span class="heading-name">
-		<a href="/">Anime Catalog</a>
+		<a href="/">Item Catalog</a>
 		</span>
 
 		<span class="row-space"></span>
@@ -21,25 +21,11 @@
 
 		<div class="vertical-space"></div>
 
-		<a class="bar-btn" href="{% if g.logged_in %}{{ url_for('logout') }}{% else %}{{ url_for('login') }}{% endif %}">
-		{% if g.logged_in %}Logout{% else %}Login{% endif %}
-		</a>
+		
 	</div>
 </header>
 
-<div class="content">
-	<!-- this allows to bypass issue where padding inflates `content` -->
-	<div class="content-2">
-	{% block content %}
-	{% endblock %}
 
-	{% if g.logged_in %}
-		<div class="faded current-user">
-			Current user: {{ g.user_email }}
-		</div>
-	{% endif %}
-	</div>
-</div>
 
 </body>
 </html>
