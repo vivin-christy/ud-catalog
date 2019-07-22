@@ -7,7 +7,7 @@ class Auth:
     CLIENT_ID = '544406063127-k38vd06fg22m0802h9vo69i63ce0m3pf.apps.googleusercontent.com'
     CLIENT_SECRET = '9NEB4PQ5-UTtm5yW0yOIsiiq'
     # URI that google server will redirect to
-    REDIRECT_URI = 'http://localhost:5000/gCallback'
+    REDIRECT_URI = 'http://catalog.aavi.me/gCallback'
     # Endpoint to start OAuth request from
     AUTH_URI = 'https://accounts.google.com/o/oauth2/auth'
     # Endpoint to fetch user token
